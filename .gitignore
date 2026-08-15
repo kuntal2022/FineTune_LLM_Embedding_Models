@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Model outputs — bade hote hain, GitHub pe push nahi karte
+ktl-bge-small-finetuned/
+ktl-bge-small-infonce/
+bge-small-finetuned/
+*.safetensors
+*.bin
+*.pt
+
+# Data files (agar bade hain)
+*.jsonl
+train_small.jsonl
+train_bge_format.jsonl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/Editor
+.DS_Store
+.vscode/
+*.log
+
+# Hugging Face cache
+.cache/
